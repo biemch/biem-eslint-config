@@ -1,14 +1,9 @@
 {
-  "extends": "@biem/tsconfig/base.json",
+  "include": ["**/*", "**/.*"],
   "compilerOptions": {
-    "target": "es2017",
-  },
-  "include": [
-    "index.js",
-    ".eslintrc.js",
-    "src"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true
+  }
 }

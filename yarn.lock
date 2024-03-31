@@ -19,11 +19,6 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@biem/tsconfig@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@biem/tsconfig/-/tsconfig-1.0.0.tgz#dc3d7f16d2efe4d3c87ef45d4b9bdab66f315920"
-  integrity sha512-Maud91jlvGwwnSj7ZsJg5kGLm2trp4+xL6UEJVplCHdWv3YRdaNtxs82ey/OSFRQ620AFwYTtc7W2n/64Xj6tQ==
-
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
