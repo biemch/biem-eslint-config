@@ -1,3 +1,12 @@
+## [2.1.2](https://github.com/biemch/biem-eslint-config/compare/2.1.1...2.1.2) (2024-12-30)
+
+
+### Bug Fixes
+
+* run tests on release workflow ([e7cd99d](https://github.com/biemch/biem-eslint-config/commit/e7cd99df7131956d117615f8718f6170766cbb06))
+
+
+
 ## [2.1.1](https://github.com/biemch/biem-eslint-config/compare/2.1.0...2.1.1) (2024-12-30)
 
 
