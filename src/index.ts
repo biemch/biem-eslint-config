@@ -58,6 +58,7 @@ export default [
 			'@stylistic/no-mixed-spaces-and-tabs': 'error',
 			'@stylistic/object-curly-spacing': ['error', 'always'],
 			'@typescript-eslint/no-explicit-any': ['error'],
+			'react/react-in-jsx-scope': 'off',
 			'module-bindings-newline/import': 'error',
 			'module-bindings-newline/export': 'error',
 			'simple-import-sort/imports': 'error',
