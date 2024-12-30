@@ -1,3 +1,12 @@
+## [2.1.4](https://github.com/biemch/biem-eslint-config/compare/2.1.3...2.1.4) (2024-12-30)
+
+
+### Bug Fixes
+
+* disable react/react-in-jsx-scope rule ([4f6da54](https://github.com/biemch/biem-eslint-config/commit/4f6da5493984b9d6277d529a6f078716c0afa773))
+
+
+
 ## [2.1.3](https://github.com/biemch/biem-eslint-config/compare/2.1.2...2.1.3) (2024-12-30)
 
 

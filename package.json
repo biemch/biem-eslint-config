@@ -1,7 +1,7 @@
 {
   "name": "@biem/eslint-config",
   "description": "Biem eslint shareable configuration",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "author": "Michael Freund <michael@biem.ch>",
   "bugs": "https://github.com/biemch/biem-eslint-config/issues",
   "dependencies": {
