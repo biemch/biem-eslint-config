@@ -51,7 +51,7 @@
   "scripts": {
     "build": "yarn clean && tsc",
     "clean": "rimraf dist",
-    "lint": "eslint .",
+    "lint": "yarn typecheck && yarn build && eslint ./src/**/*.ts",
     "prepublishOnly": "yarn build",
     "test": "yarn typecheck && yarn build && ava",
     "typecheck": "tsc --noEmit"

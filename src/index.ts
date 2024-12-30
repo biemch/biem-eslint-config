@@ -27,14 +27,14 @@ export default [
 	},
 	{ ignores: ['dist/', 'node_modules/'] },
 	{ files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
-	{ languageOptions: { globals: { ...globals.browser, ...globals.node } } },
 	{
-		settings: {
-			react: {
-				version: '18',
+		languageOptions: {
+			globals: {
+				...globals.browser, ...globals.node,
 			},
 		},
 	},
+	{ settings: { react: { version: '18' } } },
 	{
 		rules: {
 			'no-explicit-any': 0,
