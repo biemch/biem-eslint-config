@@ -37,15 +37,21 @@ export default [
 	{ settings: { react: { version: '18' } } },
 	{
 		rules: {
+			'max-len': ['error', {
+				code: 180,
+				ignoreUrls: true,
+				ignoreTemplateLiterals: true,
+				ignoreRegExpLiterals: true,
+			}],
 			'no-explicit-any': 0,
 			'jsx-quotes': [2, 'prefer-double'],
 			'object-curly-spacing': ['error', 'always'],
 			'object-curly-newline': ['error', {
 				ObjectExpression: {
-					multiline: true, minProperties: 2,
+					multiline: true, minProperties: 1,
 				},
 				ObjectPattern: {
-					multiline: true, minProperties: 2,
+					multiline: true, minProperties: 1,
 				},
 				ImportDeclaration: {
 					multiline: true, minProperties: 2,
