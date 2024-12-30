@@ -1,3 +1,13 @@
+## [2.1.3](https://github.com/biemch/biem-eslint-config/compare/2.1.2...2.1.3) (2024-12-30)
+
+
+### Bug Fixes
+
+* add linting job to github release workflow ([99815bf](https://github.com/biemch/biem-eslint-config/commit/99815bfe2e3741e1a9a5abda9402b200dd4fb6b1))
+* lint project by using its own config ([2065387](https://github.com/biemch/biem-eslint-config/commit/206538760b55ad2ae40f707fa1e2f80a2f1ac82b))
+
+
+
 ## [2.1.2](https://github.com/biemch/biem-eslint-config/compare/2.1.1...2.1.2) (2024-12-30)
 
 
