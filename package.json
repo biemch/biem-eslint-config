@@ -1,0 +1,60 @@
+{
+  "name": "@biem/eslint-config",
+  "description": "Biem eslint shareable configuration",
+  "version": "2.0.0",
+  "author": "Michael Freund <michael@biem.ch>",
+  "bugs": "https://github.com/biemch/biem-eslint-config/issues",
+  "dependencies": {
+    "@eslint/js": "^9.17.0",
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "eslint-plugin-module-bindings-newline": "^1.0.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.0.0",
+    "@types/node": "^20.11.0",
+    "ava": "^5.0.0",
+    "eslint": "^9.17.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/biemch/biem-eslint-config#readme",
+  "keywords": [
+    "biem",
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "biemch/biem-eslint-config.git",
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rimraf dist",
+    "lint": "eslint .",
+    "prepublishOnly": "yarn build",
+    "test": "yarn typecheck && yarn build && ava",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module"
+}
